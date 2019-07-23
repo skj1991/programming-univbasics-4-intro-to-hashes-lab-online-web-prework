@@ -20,7 +20,12 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
+<<<<<<< HEAD
   new_hash = {key => value}
+=======
+  hash = key
+  return hash.new
+>>>>>>> d308f3e2c8190b3760ac010cad8b56a00717cb7b
 end
 
 def read_from_hash(hash, key)
@@ -28,10 +33,14 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
+<<<<<<< HEAD
     if hash[key]
     hash[key] += 1
   else
     hash[key] = 1
   end
   hash
+=======
+
+>>>>>>> d308f3e2c8190b3760ac010cad8b56a00717cb7b
 end
